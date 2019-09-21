@@ -1,0 +1,31 @@
+div:before, div:after, div {
+  content: "";
+  position: fixed;
+  border: 5vw double rgba(112, 248, 186, 0.25);
+  outline: 5vw double rgba(202, 254, 72, 0.25);
+}
+
+body > div {
+  transform: translateX(50vw) translateY(20vh);
+}
+
+/* turns div tags into circles */
+div {
+  transform: rotate(0.1turn);
+  margin: 1em;
+}
+
+div:after {
+  animation: bloop 4s -4s infinite ease-in-out both alternate;
+}
+
+div:before {
+  animation: bloop 4s -2s infinite ease-in-out both alternate;
+}
+
+/* Causes div tags to rotate */
+@keyframes bloop {
+  to {
+    transform: rotate(1.5turn);
+  }
+}
