@@ -1,12 +1,14 @@
 # Pure Kaleidoscope Effect
+Pure CSS Kaleidoscope Effect. The squares will rotate in different directions like a kaleidoscope.
 
-CodePlayer Pure CSS Kaleidoscope Effect project. Made with HTML and CSS.
+## Tech Stack
+- HTML
+- CSS
 
 ## Instructions
-Clone repo or download zip file. Open index.html file in your browser.
-
-## Contributions
-This code is based on starter code from TheCodePlayer.com. Therefore I will not be accepting any pull requests.
+1. Clone repo or download zip file. 
+2. Open index.html file in your browser.
+3. The kaleidoscope design will be in the center of the screen and the effects will start spinning around in different directions.
 
 ## Acknowledgements
 * TheCodePlayer.com
